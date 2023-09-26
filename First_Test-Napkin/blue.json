@@ -1,1 +1,1 @@
-{"geometry": {"mesh": "meshObj.obj"}, "materials": {"type": "Laplacian", "k": "100-x*100"}, "boundary_conditions": {"dirichlet_boundary": ["vertex_blues.txt"]}, "output": {"paraview": {"file_name": "blue.vtu"}}}
+{"geometry": {"mesh": "meshObj.obj"}, "materials": {"type": "Laplacian", "k": "100*(sin(x) + 2)"}, "boundary_conditions": {"dirichlet_boundary": ["vertex_blues.txt"]}, "output": {"paraview": {"file_name": "blue.vtu"}}}
